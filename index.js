@@ -18,7 +18,7 @@ const objJsonString = JSON.stringify(obj , (prop , val) => {
     return undefined;
 }
 return val;
-}, //3
+}, //3 //ou // "  "
 );
 
 console.log(objJsonString);
